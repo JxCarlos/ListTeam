@@ -1,0 +1,91 @@
+<testsuites name="jest tests" tests="11" failures="5" time="7.06">
+  <testsuite name="undefined" errors="0" failures="5" skipped="0" timestamp="2019-10-31T00:33:40" time="7.06" tests="11">
+    <testcase classname=" should create the Teams and Channels listing app which contains the teams" name=" should create the Teams and Channels listing app which contains the teams" time="0.147">
+    </testcase>
+    <testcase classname=" teams and channel list should display first team by default along with required inputs and button" name=" teams and channel list should display first team by default along with required inputs and button" time="0.064">
+      <failure>Error: expect(received).toBe(expected)
+
+Expected value to be (using ===):
+  true
+Received:
+  false
+    at Object.&lt;anonymous&gt;.test (/Applications/XAMPP/xamppfiles/htdocs/react-teams-and-channel-list-applytio-c6bgtalr158/src/App.test.js:31:37)
+    at Object.asyncFn (/Applications/XAMPP/xamppfiles/htdocs/react-teams-and-channel-list-applytio-c6bgtalr158/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/Applications/XAMPP/xamppfiles/htdocs/react-teams-and-channel-list-applytio-c6bgtalr158/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Applications/XAMPP/xamppfiles/htdocs/react-teams-and-channel-list-applytio-c6bgtalr158/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/Applications/XAMPP/xamppfiles/htdocs/react-teams-and-channel-list-applytio-c6bgtalr158/node_modules/p-map/index.js:46:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+    <testcase classname=" teams and channel list should display first channel in team by default along with required buttons" name=" teams and channel list should display first channel in team by default along with required buttons" time="0.092">
+    </testcase>
+    <testcase classname=" Add Team section should exist and add button should be disabled initially" name=" Add Team section should exist and add button should be disabled initially" time="0.015">
+      <failure>Error: expect(received).toBe(expected)
+
+Expected value to be (using ===):
+  true
+Received:
+  false
+    at Object.&lt;anonymous&gt;.test (/Applications/XAMPP/xamppfiles/htdocs/react-teams-and-channel-list-applytio-c6bgtalr158/src/App.test.js:48:34)
+    at Object.asyncFn (/Applications/XAMPP/xamppfiles/htdocs/react-teams-and-channel-list-applytio-c6bgtalr158/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/Applications/XAMPP/xamppfiles/htdocs/react-teams-and-channel-list-applytio-c6bgtalr158/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Applications/XAMPP/xamppfiles/htdocs/react-teams-and-channel-list-applytio-c6bgtalr158/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/Applications/XAMPP/xamppfiles/htdocs/react-teams-and-channel-list-applytio-c6bgtalr158/node_modules/p-map/index.js:46:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+    <testcase classname=" Add Team button should not be enabled if data entered in input is empty or numeric" name=" Add Team button should not be enabled if data entered in input is empty or numeric" time="0.027">
+      <failure>Error: expect(received).toBe(expected)
+
+Expected value to be (using ===):
+  true
+Received:
+  false
+    at Object.&lt;anonymous&gt;.test (/Applications/XAMPP/xamppfiles/htdocs/react-teams-and-channel-list-applytio-c6bgtalr158/src/App.test.js:57:34)
+    at Object.asyncFn (/Applications/XAMPP/xamppfiles/htdocs/react-teams-and-channel-list-applytio-c6bgtalr158/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/Applications/XAMPP/xamppfiles/htdocs/react-teams-and-channel-list-applytio-c6bgtalr158/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Applications/XAMPP/xamppfiles/htdocs/react-teams-and-channel-list-applytio-c6bgtalr158/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/Applications/XAMPP/xamppfiles/htdocs/react-teams-and-channel-list-applytio-c6bgtalr158/node_modules/p-map/index.js:46:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+    <testcase classname=" Add Team button should be enabled if data entered in input is correct and clicking on button should add it to the list of teams" name=" Add Team button should be enabled if data entered in input is correct and clicking on button should add it to the list of teams" time="0.051">
+    </testcase>
+    <testcase classname=" it should display correct channels name along with remove button" name=" it should display correct channels name along with remove button" time="0.014">
+    </testcase>
+    <testcase classname=" Add Channel button should exist and should be disabled initially" name=" Add Channel button should exist and should be disabled initially" time="0.011">
+      <failure>Error: expect(received).toBe(expected)
+
+Expected value to be (using ===):
+  true
+Received:
+  false
+    at Object.&lt;anonymous&gt;.test (/Applications/XAMPP/xamppfiles/htdocs/react-teams-and-channel-list-applytio-c6bgtalr158/src/App.test.js:89:37)
+    at Object.asyncFn (/Applications/XAMPP/xamppfiles/htdocs/react-teams-and-channel-list-applytio-c6bgtalr158/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/Applications/XAMPP/xamppfiles/htdocs/react-teams-and-channel-list-applytio-c6bgtalr158/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Applications/XAMPP/xamppfiles/htdocs/react-teams-and-channel-list-applytio-c6bgtalr158/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/Applications/XAMPP/xamppfiles/htdocs/react-teams-and-channel-list-applytio-c6bgtalr158/node_modules/p-map/index.js:46:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+    <testcase classname=" Add Channel button should not be enabled if data entered in input is empty or numeric" name=" Add Channel button should not be enabled if data entered in input is empty or numeric" time="0.013">
+      <failure>Error: expect(received).toBe(expected)
+
+Expected value to be (using ===):
+  true
+Received:
+  false
+    at Object.&lt;anonymous&gt;.test (/Applications/XAMPP/xamppfiles/htdocs/react-teams-and-channel-list-applytio-c6bgtalr158/src/App.test.js:98:37)
+    at Object.asyncFn (/Applications/XAMPP/xamppfiles/htdocs/react-teams-and-channel-list-applytio-c6bgtalr158/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/Applications/XAMPP/xamppfiles/htdocs/react-teams-and-channel-list-applytio-c6bgtalr158/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Applications/XAMPP/xamppfiles/htdocs/react-teams-and-channel-list-applytio-c6bgtalr158/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/Applications/XAMPP/xamppfiles/htdocs/react-teams-and-channel-list-applytio-c6bgtalr158/node_modules/p-map/index.js:46:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+    <testcase classname=" Add Channel button should be enabled if data entered in input is correct and clicking on button should add the channel to the existing list" name=" Add Channel button should be enabled if data entered in input is correct and clicking on button should add the channel to the existing list" time="0.027">
+    </testcase>
+    <testcase classname=" Clicking on remove button should remove the channel from the list" name=" Clicking on remove button should remove the channel from the list" time="0.047">
+    </testcase>
+  </testsuite>
+</testsuites>
